@@ -1,1 +1,2 @@
 discord_test_token="YOUR_TOKEN_HERE"
+test_guild_id=YOUR_GUILD_ID_HERE
