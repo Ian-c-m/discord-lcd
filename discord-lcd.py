@@ -5,7 +5,7 @@ from time import sleep
 
 
 lcd = LCD()
-bot = commands.InteractionBot(test_guilds = [864438904954159104], intents=disnake.Intents.all())
+bot = commands.InteractionBot(test_guilds = [YOUR_GUILD_ID_HERE], intents=disnake.Intents.all()) #don't forget to add the intents in the dev website as well (https://discord.com/developers/applications)
 
 @bot.event
 async def on_ready():
